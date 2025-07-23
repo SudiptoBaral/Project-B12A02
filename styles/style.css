@@ -98,3 +98,16 @@
 .nav-content-rigth {
     gap: 48px;
 }
+
+
+/* Mobile device resposived */
+
+@media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+    .nav{
+        margin: 0 10px;
+    }
+    
+}
