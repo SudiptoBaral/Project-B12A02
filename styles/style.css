@@ -174,5 +174,35 @@
     .banner-content-right img{
         width: 100%;
     }
+
+    /* plants section responsive */
+    .plants-title{
+        margin: 0 10px;
+    }
+    .plants-title h2{
+        font-size: 24px;
+    }
+    .plants-title p{
+        font-size: 14px;
+    }
+    .plants-title p br{
+        display: none;
+    }
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0 10px;
+        gap: 20px;
+    }
+    .card-container{
+        width: 100%;
+    }
+    .card-container img{
+        width: 100%;
+    }
+    .card-container button{
+        padding:10px 0;
+        width: 100%;
+    }
+
     
 }
