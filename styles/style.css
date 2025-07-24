@@ -95,6 +95,9 @@
 .mt-120{
     margin-top: 120px;
 }
+.mb-10{
+    margin-bottom: 10px;
+}
 
 /* nav bar section */
 .nav{
@@ -180,6 +183,30 @@
     margin-bottom: 10px;
 }
 
+/* join section */
+.join-container{
+    background-image: url(../assets/news-letter-bg.png);
+    height: 533px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#email{
+    width: 60%;
+    padding: 15px 20px;
+    border: none;
+}
+.join-container-btn{
+    border: none;
+    padding: 0 20px;
+    height: 100%;
+
+}
+.join-container-input{
+    justify-content: center;
+}
+
 /* Mobile device resposived */
 
 @media screen and (max-width:576px) {
@@ -251,4 +278,14 @@
         padding: 0 10px;
     }
     
+    /* join section responsive */
+
+    .join-container{
+        
+    }
+    .fontR-20B{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
 }
