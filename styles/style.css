@@ -193,6 +193,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 120px;
 }
 #email{
     width: 60%;
@@ -239,8 +240,11 @@
 .footer-content-right{
     display: flex;
     gap: 20px;
-    
+    align-items: center;
+    height: 40px;
+
 }
+
 
 /* Mobile device resposived */
 
@@ -316,11 +320,25 @@
     /* join section responsive */
 
     .join-container{
-        
+      margin-bottom: 60px;
+      margin-top: 60px;  
     }
     .fontR-20B{
         font-size: 20px;
         font-weight: 700;
     }
+
+    /* footer section responsive */
+
+    .footer-content-all, .footer-lists{
+        flex-direction: column;
+    }
+    .footer-lists{
+        gap: 0;
+    }
+    .footer-content-all{
+        margin-left: 10px;
+    }
+
 
 }
